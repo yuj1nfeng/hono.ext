@@ -1,6 +1,6 @@
 {
     "name": "yujf-hono.ext",
-    "version": "3.0.9",
+    "version": "1.0.2",
     "description": "mkck data from yaml",
     "author": {
         "name": "yujinfeng",
@@ -17,6 +17,7 @@
         "access": "public"
     },
     "dependencies": {
-        "hono": "^4.9.5"
+        "hono": "^4.9.5",
+        "yaml": "^2.8.1"
     }
 }
