@@ -1,0 +1,22 @@
+{
+    "name": "yujf-hono.ext",
+    "version": "3.0.9",
+    "description": "mkck data from yaml",
+    "author": {
+        "name": "yujinfeng",
+        "email": "yujf1007@gmail.com"
+    },
+    "module": "index.js",
+    "type": "module",
+    "private": false,
+    "scripts": {
+        "test": "bun test",
+        "dev": "bun run example.js"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "hono": "^4.9.5"
+    }
+}
